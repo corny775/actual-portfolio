@@ -42,10 +42,18 @@ const Navbar = () => {
             </div>
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <FaLinkedin />
-            <FaGithub />
-            <FaDiscord />
-            <FaInstagram />
+        <a href="https://www.linkedin.com/in/conrad-alves-906840288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin />
+                </a>
+                <a href="https://github.com/corny775" target="_blank" rel="noopener noreferrer">
+                    <FaGithub />
+                </a>
+                <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
+                    <FaDiscord />
+                </a>
+            <a href="https://www.instagram.com/corny7750/profilecard/?igsh=MXY4c3E5bDZjcGVmeQ==" target="_blank" rel="noopener noreferrer">
+                    <FaInstagram />
+            </a>
         </div>
     </nav>
 };
